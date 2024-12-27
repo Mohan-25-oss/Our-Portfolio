@@ -208,20 +208,21 @@
 }
 #hero_about #about .left_side .social_media {
   position: absolute;
-  bottom: -30px;
+  bottom: 30px;
   /* padding: 0 20px; */
   /* text-align: center; */
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 #hero_about #about .left_side .social_media .social_icons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: start;
   padding: 12px;
   border-radius: 4px;
+  margin-left: 0px;
   box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
   /* Gray/White */
   background: rgb(255, 255, 255);
@@ -229,12 +230,12 @@
 #hero_about #about .left_side .social_media .social_icons .social_icon_item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: start;
   /* gap: 10px; */
-  padding: 15px;
+  padding: 5px;
   background: rgb(255, 255, 255);
-}
+  }
 
 #hero_about
   #about
@@ -250,6 +251,8 @@
 }
 
 #hero_about #about .right_side {
+  display: flex;
+  flex-direction: column;
 }
 #hero_about #about .right_side h2 {
   color: rgb(19, 34, 56);
@@ -286,7 +289,7 @@
   /* Primary/500 */
   background: rgb(165, 61, 255);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 12px;
