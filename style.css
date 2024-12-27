@@ -925,7 +925,7 @@
   margin-bottom: 25px;
 }
 .what_i_do_right_side_item.active {
-  border-left: 4px solid rgb(165, 61, 255);
+  /* border-left: 4px solid rgb(165, 61, 255); */
 }
 .what_i_do_right_side_item_description {
   display: flex;
@@ -1108,7 +1108,7 @@
   border-radius: 100px;
 
   /* Primary/900 */
-  background: rgb(33, 12, 51);
+  background: rgb(33, 12, 51); 
 }
 #testimonial .testimonial_paginations .ellipse {
   width: 8px;
@@ -1120,142 +1120,61 @@
 }
 /* Testimonial End */
 /* Contact Section Start */
-.contact_us_container {
+#contact{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 88px;
-  border-radius: 15px;
-  box-shadow: 0px 59px 124px 0px rgba(0, 0, 0, 0.12);
-  background: rgb(255, 255, 255);
-  margin-bottom: -50px;
-  position: relative;
+
 }
-.contact_us_container .discussion {
+.contact_container{
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 35px;
-  padding: 0px;
 }
-.contact_us_container .discussion .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 16px;
-  padding: 0px;
+.left_side {
+  width: 500px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  /* background-color: blueviolet; */
 }
-.contact_us_container .discussion .content h2 {
-  /* Heading/02 */
-  color: rgb(19, 34, 56);
-  font-family: Work Sans;
-  font-size: 38px;
-  font-weight: 600;
-  line-height: 50px;
-  letter-spacing: 0%;
-  text-align: left;
+#contact .address_content .left_side .discuss{}
+#contact .address_content .left_side .address_content{
+  
 }
-.contact_us_container .discussion .content p {
-  /* Body/Large/400 */
-  color: rgb(135, 144, 157);
-  font-family: Work Sans;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0%;
-  text-align: left;
-}
-.contact_us_container .discussion .address_card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 0px;
-}
-.contact_us_container .discussion .address_card .address_card_item {
-  display: flex;
+
+.address_box{
+ display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 13px;
-  padding: 24px;
-  border-radius: 10px;
-
-  box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
-  /* Gray/White */
-  background: rgb(255, 255, 255);
+  margin-left: 50px;
 }
-.contact_us_container .discussion .address_card .address_card_item .icon {
+.address_box svg{
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.address_box .content{
+padding-left: 20px;
+padding-bottom: 50px;
+}
+.social_media{
+  margin-left: 100px;
+}
+#contact .address_content .left_side .address .address_box .address_icon svg{}
+.social_media svg{ 
+  margin-left: 0px;
+}
+.right_side{
+  margin-left: 60px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 10px;
-  padding: 12px;
-  border-radius: 4px;
-
-  /* Primary/500 */
-  background: rgb(165, 61, 255);
+  gap: 50px;
+  padding-top: 100px;
 }
 
-.contact_us_container .discussion .address_card .address_card_item .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 4px;
-  padding: 0px;
-}
-.contact_us_container .discussion .address_card .address_card_item .content h6 {
-  /* Body/Small/400 */
-  color: rgb(66, 78, 96);
-  font-family: Work Sans;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0%;
-  text-align: left;
-}
-.contact_us_container .discussion .address_card .address_card_item .content h5 {
-  /* Body/Regular/500 */
-  color: rgb(19, 34, 56);
-  font-family: Work Sans;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0%;
-  text-align: left;
-}
-.contact_us_container .discussion .social_media {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 2px;
-  padding: 0px;
-}
-.contact_us_container .discussion .social_media_item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10;
-  padding: 15px;
-  border-radius: 4px;
 
-  box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
-  /* Primary/500 */
-  background: rgb(165, 61, 255);
-}
-.contact_us_container .discussion .social_media_item svg {
-}
 .contact_us_container .information {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 50px;
